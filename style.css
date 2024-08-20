@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    background-image: url(calculatorBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    width: 340px;
+    height: 490px;
+    padding: 30px;
+    border-radius: 25px;
+    text-align: center;
+    transform: rotate(-26deg);
+}
+
+input {
+    background: #00000000;
+    border: none;
+    font-size: 20pt;
+    width: 100%;
+    padding: 10px 30px;
+    margin-bottom: 4rem;
+    transform: rotate(5deg);
+    cursor: auto;
+}
+
+input:focus {
+    outline: none;
+}
+
+.c {
+    padding: 13px;
+    margin-bottom: 50px;
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(255, 153, 0, 0.692);
+    color: aliceblue;
+    font-size: 2em;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+button {
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 17px;
+    color: orange;
+    scale: 1.2;
+}
+
+button:hover,
+button:active {
+    transform: scale(0.9);
+}
+
+/* notebook */
+.notebook {
+    position: absolute;
+    z-index: 1;
+    width: 300px;
+    height: 350px;
+    left: 50px;
+    top: 50px;
+    background: url('noteB.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    color: #333;
+    resize: none;
+    font-family: inherit;
+}
+
+
+/* media */
+@media(max-width: 1400px) {
+    .notebook {
+        display: none;
+    }
+}
+
+@media(max-width: 750px) {
+    body {
+        background-repeat: repeat-y;
+        overflow: hidden;
+    }
+
+    img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .container {
+        width: 280px;
+    }
+
+    .row {
+        gap: 10px;
+        margin-top: 7px;
+    }
+
+    button {
+        scale: 1;
+    }
+
+    .c {
+        padding: 10px;
+    }
+
+    input,
+    .c {
+        margin-bottom: 0;
+        margin-top: 3.5rem !important;
+    }
+}

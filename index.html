@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caclculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="Icon" href="Icon David.jpg">
+
+</head>
+
+<body>
+    <div class="notebook">
+        <textarea id="notes" placeholder="Type your notes here..."></textarea>
+    </div>
+    <img src="calculatorMini.png" alt="calculatorMini">
+    <div class="container">
+        <div class="row">
+            <div>
+                <input type="text" class="form-control h-100 fs-4" id="result" readonly />
+            </div>
+            <div>
+                <button class="c" onclick="clr()">
+                    c
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class=""><button onclick="addChar('1')">1</button></div>
+            <div><button onclick="addChar('2')">2</button></div>
+            <div><button onclick="addChar('3')">3</button></div>
+            <div><button onclick="addChar('/')">/</button></div>
+        </div>
+        <div class="row">
+            <div><button onclick="addChar('4')">4</button></div>
+            <div><button onclick="addChar('5')">5</button></div>
+            <div><button onclick="addChar('6')">6</button></div>
+            <div><button onclick="addChar('*')">*</button></div>
+        </div>
+        <div class="row ">
+            <div><button onclick="addChar('7')">7</button></div>
+            <div><button onclick="addChar('8')">8</button></div>
+            <div><button onclick="addChar('9')">9</button></div>
+            <div><button onclick="addChar('-')" class="btn btn-warning w-100 p-4 fs-4">-</button></div>
+        </div>
+        <div class="row mt-2">
+            <div><button onclick="addChar('0')">0</button></div>
+            <div><button onclick="addChar('.')">.</button></div>
+            <div><button onclick="showResult()">=</button>
+            </div>
+            <div><button onclick="addChar('+')">+</button></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
