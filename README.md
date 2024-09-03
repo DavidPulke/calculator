@@ -27,13 +27,13 @@ Calculator
 
 bash
 Copy code
-git clone https://github.com/username/Calculator.git
+git clone https://github.com/username/calculator.git
 
 כניסה לתיקייה:
 
 bash
 Copy code
-cd Calculator
+cd calculator
 
 פתיחת הקובץ: פתח את index.html בדפדפן המועדף עליך.
 
