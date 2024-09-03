@@ -39,3 +39,4 @@ cd calculator
 
 
 ![calculatorImage](https://github.com/user-attachments/assets/5b9e3e51-c045-4c7f-b07c-b74f9a35571f)
+צילום של האתר: (DavidPolak)
