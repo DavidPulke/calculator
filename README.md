@@ -1,42 +1,44 @@
 Calculator
-
-תיאור:
-
-זהו מחשבון פשוט שנבנה באמצעות JavaScript, המאפשר למשתמשים לבצע חישובים מתמטיים בסיסיים כמו חיבור, חיסור, כפל וחילוק.
+Description:
 
 
-קישור לפרויקט החי:
+This is a simple calculator built using JavaScript, allowing users to perform basic mathematical operations such as addition, subtraction, multiplication, and division.
 
-[https://davidpulke.github.io/calculator/]
+Live Project Link:
 
-תכונות עיקריות:
+https://davidpulke.github.io/calculator/
 
+Main Features:
 
-חישובים בסיסיים: המחשבון תומך בפעולות חישוביות בסיסיות כגון חיבור, חיסור, כפל וחילוק.
+Basic Calculations: The calculator supports basic operations like addition, subtraction, multiplication, and division.
 
-מחברת שאפשר לכתוב בה את החישובים והיא נשמרת ב - LocalStorage.
+Notebook for Calculations: Users can write their calculations in a notebook, and the data is saved in LocalStorage.
 
-ממשק משתמש ברור ופשוט: ממשק המחשבון קל לשימוש ונגיש לכל משתמש.
+Clear and Simple User Interface: The calculator's interface is user-friendly and accessible to everyone.
 
-תגובה בזמן אמת: התוצאה מופיעה מיידית לאחר לחיצה על פעולת החישוב.
+Real-time Response: Results appear immediately after pressing the calculation action.
 
-התקנה והרצה מקומית:
+Installation and Local Run:
 
-
-שיבוט המאגר:
+Clone the repository:
 
 bash
+
 Copy code
+
 git clone https://github.com/username/calculator.git
 
-כניסה לתיקייה:
+Navigate to the folder:
 
 bash
+
 Copy code
+
 cd calculator
 
-פתיחת הקובץ: פתח את index.html בדפדפן המועדף עליך.
+Open the file:
 
+Open index.html in your preferred browser.
 
 ![calculatorImage](https://github.com/user-attachments/assets/5b9e3e51-c045-4c7f-b07c-b74f9a35571f)
 צילום של האתר: (DavidPolak)
